@@ -1,0 +1,35 @@
+.interest-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.interest-list ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.interest-list ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.interest-list .interest-blocks {
+  height: 15vh;
+  width: 15vh;
+  /* background-color: #EEDB98; */
+  padding: 10vh;
+  display: flexbox;
+  border: 1px solid;
+}
+
+.interest-blocks-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

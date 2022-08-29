@@ -1,0 +1,38 @@
+.nav-list {
+      position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-color: #B8B5AD;
+  z-index: 1000;
+
+}
+
+.nav-list ul {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: -10px;
+}
+
+.nav-list ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.nav-list ul li h4 {
+  line-height: 10px;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Navbar from './components/Navbar';
+import About from './pages/About';
+import Experience from './pages/Experience';
+import Footer from './pages/Footer';
+import Home from './pages/Home';
+import Interests from './pages/Interests';
+import Projects from './pages/Projects';
+import Skills from './pages/Skills';
+
+import { Nav } from './nav';
+import NavProvider from './context/NavContext';
+
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+{/* 
+      <Navbar />
+      <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/skills" element={<Skills/>} />
+          <Route path="/experience" element={<Experience/>} />
+          <Route path="/interests" element={<Interests/>} />
+      </Routes>       */}
+
+      
+		<div className='appContainer'>
+			<NavProvider>
+				<Nav />
+          <Home />
+          <About />
+          <Projects />
+          <Skills />
+          <Experience />
+          <Interests />
+
+      </NavProvider>
+    </div>
+          
+      <Footer />
+
     </div>
   );
 }
 
 export default App;
+
