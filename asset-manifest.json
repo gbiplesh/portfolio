@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5fcbb119.css",
-    "main.js": "/portfolio/static/js/main.926a492c.js",
-    "static/js/787.1297335f.chunk.js": "/portfolio/static/js/787.1297335f.chunk.js",
-    "static/media/biplesh.jpg": "/portfolio/static/media/biplesh.570505a9f97bff461a63.jpg",
-    "static/media/eschool.png": "/portfolio/static/media/eschool.6a60a1ae60459b492fec.png",
-    "static/media/amazon.png": "/portfolio/static/media/amazon.1d11ec7dd27beaceb0af.png",
-    "static/media/tinder.jpg": "/portfolio/static/media/tinder.e1f6c441141fff78df45.jpg",
-    "static/media/craigslist.png": "/portfolio/static/media/craigslist.945c78b3912f0e799797.png",
-    "static/media/todo.png": "/portfolio/static/media/todo.cef2584b5b1d7ca580f8.png",
-    "index.html": "/portfolio/index.html",
-    "main.5fcbb119.css.map": "/portfolio/static/css/main.5fcbb119.css.map",
-    "main.926a492c.js.map": "/portfolio/static/js/main.926a492c.js.map",
-    "787.1297335f.chunk.js.map": "/portfolio/static/js/787.1297335f.chunk.js.map"
+    "main.css": "/gbiplesh/static/css/main.5fcbb119.css",
+    "main.js": "/gbiplesh/static/js/main.c012ca90.js",
+    "static/js/787.1297335f.chunk.js": "/gbiplesh/static/js/787.1297335f.chunk.js",
+    "static/media/biplesh.jpg": "/gbiplesh/static/media/biplesh.570505a9f97bff461a63.jpg",
+    "static/media/eschool.png": "/gbiplesh/static/media/eschool.6a60a1ae60459b492fec.png",
+    "static/media/amazon.png": "/gbiplesh/static/media/amazon.1d11ec7dd27beaceb0af.png",
+    "static/media/tinder.jpg": "/gbiplesh/static/media/tinder.e1f6c441141fff78df45.jpg",
+    "static/media/craigslist.png": "/gbiplesh/static/media/craigslist.945c78b3912f0e799797.png",
+    "static/media/todo.png": "/gbiplesh/static/media/todo.cef2584b5b1d7ca580f8.png",
+    "index.html": "/gbiplesh/index.html",
+    "main.5fcbb119.css.map": "/gbiplesh/static/css/main.5fcbb119.css.map",
+    "main.c012ca90.js.map": "/gbiplesh/static/js/main.c012ca90.js.map",
+    "787.1297335f.chunk.js.map": "/gbiplesh/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fcbb119.css",
-    "static/js/main.926a492c.js"
+    "static/js/main.c012ca90.js"
   ]
 }
